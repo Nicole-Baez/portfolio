@@ -1,8 +1,9 @@
 "use client";
 import React from "react";
 
-const Experience = () => {
-  return <div> Experience Page</div>;
-};
-
-export default Experience;
+export default function Experience() {
+  return (
+    //outer div: container, inner div: the projects list
+    <div className=" flex flex-col w-full h-screen items-center bg-white justify-center"></div>
+  );
+}

@@ -1,8 +1,9 @@
 "use client";
 import React from "react";
 
-const Contact = () => {
-  return <div> Contact Page </div>;
-};
-
-export default Contact;
+export default function ContactPage() {
+  return (
+    //outer div: container, inner div: the projects list
+    <div className=" flex flex-col w-full h-screen items-center bg-white justify-center"></div>
+  );
+}
