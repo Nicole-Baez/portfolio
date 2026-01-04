@@ -9,18 +9,18 @@ export default function Home() {
     //Notes: I want to add some animations on this screen, look at a portfolio example
 
     <main className="flex flex-col w-full min-h-screen max-w-3xl items-center justify-center gap-10 pt-30 pl-70 bg-white dark:bg-black sm:items-start">
-      <div className="flex flex-row w-full text-left justify-items-center items-center sm:items-start sm:text-left">
+      <div className="flex flex-row w-full text-left items-center sm:items-start sm:text-left max-w-xl">
         <img
           className="rounded-full w-40 h-40"
           src="/images/Proffesional Pic.jpg"
         />
 
-        <div className="flex flex-col gap-4 pl-20">
+        <div className="flex flex-col gap-4 flex-1 pl-20">
           <h1 className="font-bold text-black font-mono gap-2">
             Welcome to my Personal Portfolio!
           </h1>
 
-          <p className="text-black font-mono text-sm text-left">
+          <p className="text-black font-mono text-sm max-w-md">
             Hello! I'm Nicole, an aspiring software developer who's passionate
             about front-end development and currently interested in exploring
             back-end development as well as machine learning.

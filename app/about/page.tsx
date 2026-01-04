@@ -8,7 +8,7 @@ export default function AboutPage() {
 
     <div className="flex flex-col text-left justify-items-center items-center sm:items-start sm:text-left pt-20">
       <h1 className="font-bold text-black font-mono gap-4 items-start">
-        About Me
+        About Me:
       </h1>
 
       <p className="text-black font-mono text-sm text-left max-w-md pt-2">
