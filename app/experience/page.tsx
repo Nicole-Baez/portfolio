@@ -1,13 +1,19 @@
 "use client";
+import { Timeline } from "@/components/ui/Timeline";
+import TimeLineLayout from "@/components/ui/TimelineLayout";
 import React from "react";
 
 export default function Experience() {
   return (
     //outer div: container, inner div: the projects list
-    <div className=" flex flex-col w-full items-center bg-white justify-center">
+    <div className=" flex flex-col w-full items-start bg-white justify-center gap-4">
       <h3 className="font-mono text-black font-bold items-start">
         Experience:
       </h3>
+
+      {/* make a line trailing my experience instead of embedding my resume */}
+      <Timeline />
+      <TimeLineLayout />
     </div>
   );
 }

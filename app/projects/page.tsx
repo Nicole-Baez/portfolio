@@ -1,5 +1,5 @@
 "use client";
-import Cards from "@/components/layout/Cards";
+import Cards from "@/components/Cards";
 import React from "react";
 
 export default function Projects() {

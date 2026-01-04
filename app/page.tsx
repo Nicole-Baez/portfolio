@@ -8,7 +8,7 @@ export default function Home() {
   return (
     //Notes: I want to add some animations on this screen, look at a portfolio example
 
-    <main className="flex flex-col w-full min-h-screen max-w-3xl items-center justify-center gap-10 pt-30 pl-70 bg-white dark:bg-black sm:items-start">
+    <main className="flex flex-col w-full min-h-screen max-w-3xl items-center justify-center gap-10 pt-30 pl-70 bg-white dark:bg-black sm:items-start scroll-smooth">
       <div className="flex flex-row w-full text-left items-center sm:items-start sm:text-left max-w-xl">
         <img
           className="rounded-full w-40 h-40"
