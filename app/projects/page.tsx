@@ -5,9 +5,9 @@ import React from "react";
 export default function Projects() {
   return (
     //outer div: container, inner div: the projects list
-    <div className="flex flex-col w-full items-center bg-white justify-start sm:items-start sm:text-left text-left">
+    <div className="flex flex-col w-full h-screen items-center bg-white justify-center sm:items-center sm:text-center gap-8 pl-55">
       {/* it wasn't bolding because the attribute font-medium does not exist */}
-      <h1 className="font-mono text-black font-bold items-start">Projects:</h1>
+      <h1 className="font-mono text-black font-bold items-center">Projects:</h1>
 
       <div className="flex flex-row gap-8 mt-4">
         <Cards
