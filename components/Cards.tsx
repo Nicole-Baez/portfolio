@@ -12,7 +12,7 @@ interface CardElements {
 }
 export default function Cards({ title, image, descriptions }: CardElements) {
   return (
-    <div className="flex flex-col bg-green-100 rounded-xl p-6 px-10 py-5 w-[250px] h-[420px] gap-4">
+    <div className="flex flex-col bg-lime-100 rounded-xl p-6 px-10 py-5 w-[250px] h-[420px] gap-4">
       {/* each one is for title, pictures, descriptions, and tags */}
       <h3 className="text-lg font-bold font-mono mb-4">{title}</h3>
 
