@@ -1,13 +1,11 @@
 import React from "react";
 
 import { ContactCards, Container } from "./ContactCards";
-import { Icon } from "next/dist/lib/metadata/types/metadata-types";
 import { FaGithub } from "react-icons/fa";
 import { IconType } from "react-icons/lib";
 import { FaLinkedin } from "react-icons/fa";
 import { SiHandshake } from "react-icons/si";
 import { BiLogoGmail } from "react-icons/bi";
-import Link from "next/link";
 
 interface ContactInfo {
   id: number;
@@ -41,7 +39,7 @@ export default function ContactCardsLayout() {
 
     {
       id: 4,
-      userName: "Nicole Baez Espinosa",
+      userName: "nicolebaezesp@gmail.com",
       icon: BiLogoGmail,
       link: "mailto:nicolebaezesp@gmail.com",
     },
@@ -55,7 +53,7 @@ export default function ContactCardsLayout() {
             <contact.icon className="w-8 h-8 items-center" />
             <a
               href={contact.link}
-              className="font-mono text-black text-xs p-1 pl-4 items-start"
+              className="font-mono text-black text-xs p-1 pl-4 items-start hover:underline"
             >
               {contact.userName}
             </a>
