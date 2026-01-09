@@ -58,7 +58,7 @@ export default function TimeLineLayout() {
   ];
 
   return (
-    <Timeline>
+    <Timeline className="overflow-x:hidden">
       {timelineData.map((item) => (
         <TimelineElement className="bg-transparent" key={item.id}>
           <TimelineHeader
