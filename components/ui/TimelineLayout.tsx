@@ -58,14 +58,14 @@ export default function TimeLineLayout() {
   ];
 
   return (
-    <Timeline className="overflow-x:hidden">
+    <Timeline className="overflow-x:hidden items-center justify-center">
       {timelineData.map((item) => (
         <TimelineElement className="bg-transparent" key={item.id}>
           <TimelineHeader
             className={
               item.id % 2 === 0
-                ? "sm:before:left-[11rem] sm:after:left-[11rem] sm:pr-[15rem]"
-                : "sm:before:left-[11rem] sm:after:left-[11rem] sm:pl-[13rem]"
+                ? "sm:before:left-[11rem] sm:after:left-[11rem] pr-[17rem]"
+                : "sm:before:left-[11rem] sm:after:left-[11rem] pl-[13rem]"
             }
           >
             <TimelineContainer>

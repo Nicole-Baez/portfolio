@@ -1,15 +1,22 @@
 "use client";
 import Cards from "@/components/Cards";
+import { ProjectCards } from "@/components/ui/ProjectCards";
+import ProjectCardsLayout from "@/components/ui/ProjectCardsLayout";
 import React from "react";
 
 export default function Projects() {
   return (
     //outer div: container, inner div: the projects list
-    <div className="flex flex-col w-full h-screen items-center bg-white justify-center sm:items-center sm:text-center gap-8 pl-55">
+    <div className="flex flex-col max-w-screen-lg w-full min-h-screen items-center bg-white justify-start">
       {/* it wasn't bolding because the attribute font-medium does not exist */}
       <h1 className="font-mono text-black font-bold items-center">Projects:</h1>
 
-      <div className="flex flex-row gap-8 mt-4">
+      <div className="flex flex-col w-full items-center justify-center">
+        <ProjectCards />
+        <ProjectCardsLayout />
+      </div>
+
+      {/*<div className="flex flex-row gap-8 mt-4">
         <Cards
           title="Brûlée"
           image="/images/brulee.jpg"
@@ -24,10 +31,10 @@ export default function Projects() {
 
         <Cards
           title="AI Meal Recommender"
-          image="/images/ai_meal.jpg"
+          image="/images/ai_pic.jpg"
           descriptions="Currently working on the backend of an AI meal recommender web app using Python and Flask. The app suggests meals based on user input in a quiz-style manner. Designed the front-end using Canva."
         />
-      </div>
+      </div>*/}
     </div>
   );
 }

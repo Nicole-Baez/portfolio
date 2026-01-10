@@ -8,14 +8,14 @@ export default function Home() {
   return (
     //Notes: I want to add some animations on this screen, look at a portfolio example
 
-    <main className="flex flex-col w-full min-h-screen max-w-3xl items-center justify-center gap-10 pt-30 pl-70 bg-white dark:bg-black scroll-smooth">
-      <div className="flex flex-row text-center items-center sm:items-center sm:text-center max-w-xl overflow-x:hidden">
+    <main className="flex flex-col w-full min-h-screen items-center justify-center gap-10 pt-50 bg-white dark:bg-black scroll-smooth">
+      <div className="flex flex-row items-start max-w-xl">
         <img
           className="rounded-full w-40 h-40"
           src="/images/Proffesional Pic.jpg"
         />
 
-        <div className="flex flex-col gap-4 flex-1 pl-40 items-center">
+        <div className="flex flex-col gap-4 flex-1 pl-10 items-center text-center">
           <h1 className="font-bold text-black font-mono gap-2">
             Welcome to my Personal Portfolio!
           </h1>
@@ -28,21 +28,29 @@ export default function Home() {
         </div>
       </div>
 
-      <section id="about">
-        <AboutPage />
-      </section>
+      <div className="pt-5 pb-5">
+        <section id="about">
+          <AboutPage />
+        </section>
+      </div>
 
-      <section id="projects">
-        <Projects />
-      </section>
+      <div className="pt-5 pb-5">
+        <section id="projects">
+          <Projects />
+        </section>
+      </div>
 
-      <section id="experience">
-        <Experience />
-      </section>
+      <div className="pt-5 pb-5">
+        <section id="experience">
+          <Experience />
+        </section>
+      </div>
 
-      <section id="contact">
-        <ContactPage />
-      </section>
+      <div className="pt-5 pb-5">
+        <section id="contact">
+          <ContactPage />
+        </section>
+      </div>
     </main>
   );
 }

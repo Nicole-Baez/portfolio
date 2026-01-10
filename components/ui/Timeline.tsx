@@ -64,7 +64,7 @@ const TimelineContainer = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <div
     ref={ref}
-    className={cn("bg-red-100 rounded-xl", className)}
+    className={cn("bg-red-100 rounded-xl w-45", className)}
     {...props}
   />
 ));

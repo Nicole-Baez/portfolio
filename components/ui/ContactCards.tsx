@@ -12,7 +12,7 @@ const ContactCards = React.forwardRef<
   <div
     ref={ref}
     className={cn(
-      "w-full grid grid-cols-2 gap-25 mt-4 items-start justify-start pl-20",
+      "grid grid-cols-2 gap-5 mt-4 items-start justify-start",
       className
     )}
     {...props}
