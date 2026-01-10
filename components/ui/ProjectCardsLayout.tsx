@@ -41,7 +41,7 @@ export default function ProjectCardsLayout() {
       projectName: "AI Meal Recommender",
       image: "/images/ai_pic.jpg",
       description:
-        "Recently started working on the backend component of an AI meal recommender web app using Python and Flask. The app suggests meals based on user input in a quiz-style manner. Designed the front-end using Canva.",
+        "Recently started working on the backend component of an AI Meal Recommender Web App using Python and Flask. The app suggests meals based on user input in a quiz-style manner. Designed the front-end using Canva.",
       repoLink: "https://github.com/Nicole-Baez/meal-recommender",
     },
   ];
@@ -57,6 +57,12 @@ export default function ProjectCardsLayout() {
             className="items-center justify-center p-2"
           />
           <ProjectCardDescription>{project.description}</ProjectCardDescription>
+          <a
+            href={project.repoLink}
+            className="text-xs font-mono font-bold text-black hover:underline p-6 text-center"
+          >
+            View Repository
+          </a>
         </ProjectCardContainer>
       ))}
     </ProjectCards>

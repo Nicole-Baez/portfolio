@@ -12,7 +12,7 @@ const ProjectCards = React.forwardRef<
   <div
     ref={ref}
     className={cn(
-      "grid grid-cols-2 mt-4 gap-8 p-4 items-start justify-center",
+      "grid grid-cols-2 mt-1 gap-8 p-4 items-start justify-center",
       className
     )}
     {...props}
@@ -40,7 +40,7 @@ const ProjectCardTitle = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <div
     ref={ref}
-    className={cn("text-s text-black font-mono", className)}
+    className={cn("text-s text-black font-mono text-center", className)}
     {...props}
   />
 ));
@@ -62,7 +62,7 @@ const ProjectCardDescription = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <div
     ref={ref}
-    className={cn("text-xs text-black font-mono pt-5", className)}
+    className={cn("text-xs text-black font-mono pt-5 text-center", className)}
     {...props}
   />
 ));

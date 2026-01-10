@@ -23,34 +23,26 @@ export default function Home() {
           <p className="text-black font-mono text-sm max-w-md">
             Hello! I'm Nicole, an aspiring software developer who's passionate
             about front-end development and currently interested in exploring
-            back-end development as well as machine learning.
+            back-end development and machine learning.
           </p>
         </div>
       </div>
 
-      <div className="pt-5 pb-5">
-        <section id="about">
-          <AboutPage />
-        </section>
-      </div>
+      <section id="about">
+        <AboutPage />
+      </section>
 
-      <div className="pt-5 pb-5">
-        <section id="projects">
-          <Projects />
-        </section>
-      </div>
+      <section id="projects">
+        <Projects />
+      </section>
 
-      <div className="pt-5 pb-5">
-        <section id="experience">
-          <Experience />
-        </section>
-      </div>
+      <section id="experience">
+        <Experience />
+      </section>
 
-      <div className="pt-5 pb-5">
-        <section id="contact">
-          <ContactPage />
-        </section>
-      </div>
+      <section id="contact">
+        <ContactPage />
+      </section>
     </main>
   );
 }

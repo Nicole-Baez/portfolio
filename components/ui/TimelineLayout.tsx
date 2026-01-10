@@ -64,8 +64,8 @@ export default function TimeLineLayout() {
           <TimelineHeader
             className={
               item.id % 2 === 0
-                ? "sm:before:left-[11rem] sm:after:left-[11rem] pr-[17rem]"
-                : "sm:before:left-[11rem] sm:after:left-[11rem] pl-[13rem]"
+                ? "sm:before:left-[12rem] sm:after:left-[12rem] pr-[17rem]"
+                : "sm:before:left-[12rem] sm:after:left-[12rem] pl-[13rem]"
             }
           >
             <TimelineContainer>

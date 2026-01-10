@@ -10,12 +10,12 @@ export default function AboutPage() {
       <div className="flex flex-col items-center text-center max-w-xl">
         <h1 className="font-bold text-black font-mono">About Me:</h1>
 
-        <p className="text-black font-mono pt-2">
+        <p className="text-black font-mono pt-4">
           My name is Nicole Baez Espinosa and I'm a Computer Science major at
-          the University of Central Florida. I'm currently a junior and
-          throughout my time in college I have participated in clubs such as the
-          Association of Computing Machinery and the Society of Hispanic
-          Professional Engineers.
+          the University of Central Florida. I'm currently a junior and an
+          Undergraduate Researcher at the UCF DRACO Lab. I'm always looking for
+          a challenge and open to learn as much as possible about the world of
+          software development :)
         </p>
       </div>
     </div>
